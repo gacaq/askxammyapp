@@ -11,7 +11,7 @@
         <Label Text="Askxammy XamarinForms App" FontSize="Title" VerticalOptions="StartAndExpand" HorizontalOptions="Center"></Label>
 
         <Button Text="Stack Layout page" Clicked="ButtonLayout_Clicked" ></Button>
-        <Button Text="Gridl Layout page" Clicked="ButtonGrid_Clicked"></Button>
+        <Button Text="Grid Layout page" Clicked="ButtonGrid_Clicked"></Button>
     </StackLayout>
 
 </ContentPage>

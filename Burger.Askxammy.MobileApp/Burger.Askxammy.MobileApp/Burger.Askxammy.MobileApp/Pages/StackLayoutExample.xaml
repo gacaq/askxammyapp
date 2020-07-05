@@ -6,17 +6,17 @@
              mc:Ignorable="d"
              x:Class="Burger.Askxammy.MobileApp.Pages.StackLayoutExample">
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-            <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                <Button BackgroundColor="#E0F2F1" Text="Button 0,0" TextColor="White" />
-                <Button BackgroundColor="#B2DFDB" Text="Button 0,1" TextColor="White" />
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
+                <Button BackgroundColor="#E0F2F1" Text="Button 0,0" TextColor="White" HorizontalOptions="FillAndExpand" />
+                <Button BackgroundColor="#B2DFDB" Text="Button 0,1" TextColor="White" HorizontalOptions="FillAndExpand" />
             </StackLayout>
-            <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                <Button BackgroundColor="#80CBC4" Text="Button 0,0" TextColor="White" />
-                <Button BackgroundColor="#4DB6AC" Text="Button 0,1" TextColor="White" />
+            <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" >
+                <Button BackgroundColor="#80CBC4" Text="Button 0,0" TextColor="White" HorizontalOptions="FillAndExpand" />
+                <Button BackgroundColor="#4DB6AC" Text="Button 0,1" TextColor="White" HorizontalOptions="FillAndExpand" />
             </StackLayout>
-            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                <Button BackgroundColor="#26A69A" Text="Button 0,0" TextColor="White" />
+            <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
+                <Button BackgroundColor="#26A69A" Text="Button con columnspan" TextColor="White" HorizontalOptions="FillAndExpand" />
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
