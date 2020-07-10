@@ -28,5 +28,15 @@ namespace Burger.Askxammy.MobileApp
         {
             await Navigation.PushAsync(new GridLayoutExample());
         }
+
+        private async void ButtonList_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new BurgerListPage());
+        }
+
+        private async void ButtonForm_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new BurgerCreatePage());
+        }
     }
 }

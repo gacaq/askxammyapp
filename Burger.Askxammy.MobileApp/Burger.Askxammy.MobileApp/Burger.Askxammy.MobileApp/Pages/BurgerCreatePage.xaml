@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Burger.Askxammy.MobileApp.Pages.BurgerCreatePage">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label Text="Creación de platos" TextColor="#E65100" FontSize="Title"></Label>
+            <StackLayout Orientation="Horizontal" Margin="10">
+                <Label Text="Nombre:" FontSize="18" HeightRequest="20" WidthRequest="120" VerticalTextAlignment="Center"></Label>
+                <Entry Placeholder="Ingrese un nombre" MaxLength="50" ClearButtonVisibility="WhileEditing" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="10">
+                <Label Text="Descripcion:" FontSize="18" HeightRequest="20" WidthRequest="120" VerticalTextAlignment="Center"></Label>
+                <Editor Placeholder="Ingrese una descripción" MaxLength="200" HeightRequest="100" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="10">
+                <Label Text="Precio:" FontSize="18" HeightRequest="20"  WidthRequest="120" VerticalTextAlignment="Center"></Label>
+                <Entry Placeholder="Ingrese un precio" MaxLength="50" ClearButtonVisibility="WhileEditing" Keyboard="Numeric" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="10">
+                <Label Text="Tipo:" FontSize="18" HeightRequest="20" WidthRequest="120" VerticalTextAlignment="Center"></Label>
+                <Entry Placeholder="Ingrese un tipo" MaxLength="50" ClearButtonVisibility="WhileEditing" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

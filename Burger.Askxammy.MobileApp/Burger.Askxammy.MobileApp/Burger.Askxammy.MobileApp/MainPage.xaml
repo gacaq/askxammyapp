@@ -12,6 +12,8 @@
 
         <Button Text="Stack Layout page" Clicked="ButtonLayout_Clicked" ></Button>
         <Button Text="Grid Layout page" Clicked="ButtonGrid_Clicked"></Button>
+        <Button Text="Lista productos" Clicked="ButtonList_Clicked"></Button>
+        <Button Text="Formulario producto" Clicked="ButtonForm_Clicked"></Button>
     </StackLayout>
 
 </ContentPage>

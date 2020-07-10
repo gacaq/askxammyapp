@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Burger.Askxammy.MobileApp.Pages.BurgerListPage">
+    <ContentPage.Content>
+        <Grid ColumnSpacing="5" RowSpacing="5" Padding="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label Text="Lista de productos" FontSize="Title" TextColor="#E65100" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"/>
+            <Image Source="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2019/05/hamburguesas-para-el-dia-del-padre-caseras.jpg"
+                   WidthRequest="100" HeightRequest="100" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" />
+            <Label Text="Nombre del producto" FontSize="Subtitle" TextColor="#F57C00" Grid.Column="1" Grid.Row="1" />
+            <Label Text="Hamburguesa de 150grs de carne de res completamente asada acompañada de queso cheedar y salsas" FontSize="Body" TextColor="Black" Grid.Column="1" Grid.Row="2" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
