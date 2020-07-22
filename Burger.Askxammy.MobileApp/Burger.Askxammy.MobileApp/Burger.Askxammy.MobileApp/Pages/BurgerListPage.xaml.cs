@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using Burger.Askxammy.MobileApp.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +10,7 @@ namespace Burger.Askxammy.MobileApp.Pages
         public BurgerListPage()
         {
             InitializeComponent();
+            BindingContext = new DishesViewModel();
         }
     }
 }
